@@ -141,7 +141,7 @@ autoketik = false;
 prefixStatus = false;
 targetpc = "201032199513"; 
 owner = "201032199513"; 
-fakeyoi = "Xeon"; 
+fakeyoi = "كي ساما"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -1348,7 +1348,7 @@ const serialUser = createSerial(18)
 		}, 2000)
         break
       
-case 'help':
+case 'كلب البحر':
 case 'menu':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -1713,7 +1713,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 case 'auu': // by xeon
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
        reply('No Sis')
-        sendButMessage(from, `Hi ${pushname} 🐶`, `What do you want to answer??`, [
+        sendButMessage(from, `Hi ${pushname} ??`, `What do you want to answer??`, [
           {
             buttonId: `oklah`,
             buttonText: {
@@ -2443,7 +2443,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: " ـ البوت خاص ـ", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "بوت خاص بمملكة انمي فاير", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -3069,30 +3069,30 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += '\n\n'
 					for (let mem of groupMembers) {
-						teks += `😕💜،!!@${mem.jid.split('@')[0]}\n`
+						teks += `🦄 @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
 					mentions(teks, members_id, true)
 					break
-					               case "باكا":
+					               case "handsome":
 				
 				
 					jds = []
 					const jdiidc = groupMembers
 					const kosstc = groupMembers
 					const akuutc = jdiidc[Math.floor(Math.random() * jdiidc.length)]
-					teks = `باكا ...؟ @${akuutc.jid.split('@')[0]} ☺️`
+					teks = `The most handsome person in this group is @${akuutc.jid.split('@')[0]} ☺️`
 					jds.push(akuutc.jid)
 					mentions(teks, jds, true)
 					break	
-					              case "الاجمل":
+					              case "pretty":
 				
 				
 					jds = []
 					const jdiidr = groupMembers
 					const kosstr = groupMembers
 					const akuutr = jdiidr[Math.floor(Math.random() * jdiidr.length)]
-					teks = `اجمل شخص @${akuutr.jid.split('@')[0]}`
+					teks = `The prettiest person in this group is @${akuutr.jid.split('@')[0]}`
 					jds.push(akuutr.jid)
 					mentions(teks, jds, true)
 					break
@@ -3103,25 +3103,24 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 					const jokeq = groupMembers
 					const xoxq = groupMembers
 					const hexhexq = jokeq[Math.floor(Math.random() * jokeq.length)]
-					teks = `الالوان 😂🤦‍♂💙،!! @${hexhexq.jid.split('@')[0]}`
+					teks = `The gay person in this group is @${hexhexq.jid.split('@')[0]}`
 					jds.push(hexhexq.jid)
 					mentions(teks, jds, true)
 					break
-					             case "كبلز":
+					             case "couple":
 				
 					jds = []
 					const jdii = groupMembers
 					const koss = groupMembers
 					const akuu = jdii[Math.floor(Math.random() * jdii.length)]
 					const diaa = koss[Math.floor(Math.random() * koss.length)]
-					teks = `Ciee.. عايشه في حب حالة معها 🦋ًًٍ❤️َِ❤️ًًٍٍَُِِᥫَ᭡َ᭡"_ @${akuu.jid.split('@')[0]} ♥️👀 @${diaa.jid.split('@')[0]} `
+					teks = `Ciee.. whats happening here @${akuu.jid.split('@')[0]} ♥️👀 @${diaa.jid.split('@')[0]} `
 					jds.push(akuu.jid)
 					jds.push(diaa.jid)
 					mentions(teks, jds, true)
 					break
-					                 
-		
-					//feature by Ki
+					
+					//feature by xeon
 					          case 'phcomment':
                    if (args.length < 1) return reply(`[  ×  ] Example :\n*${prefix}${command} xeon&lol*`)
                    var F = body.slice(10)
@@ -3925,7 +3924,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply(' ـ البوت خاص ـ')
+  reply('was.me/201032199513')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4200,7 +4199,7 @@ case 'debug2':
       {
         "urlButton": {
           "displayText": `Script ${fakeyoi}`,
-          "url": " ـ البوت خاص ـ"
+          "url": "بوت خاص بمملكة انمي فاير"
         },
         "index": 0
       }
